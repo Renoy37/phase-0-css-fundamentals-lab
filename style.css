@@ -3,3 +3,35 @@ body {
   height: 100%;
   margin: 0;
 }
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+nav a {
+  background-color: gray;
+  margin: 15px;
+}
+#featured-property {
+  /* margin: auto; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 100px;
+}
+#details {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: red;
+  height: 70px;
+  margin-bottom: 1px;
+}
